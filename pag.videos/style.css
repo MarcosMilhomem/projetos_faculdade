@@ -16,13 +16,17 @@ nav {
 }
 
 .img_logo {
-    height: 90px;
+    height: 80px;
+    align-items: center;
+    height: 100%;
 }
 
 .nav_bar { 
     justify-content: space-between;
     display: flex;
     background-color: #2828F4;
+    height: 120px;
+    box-shadow: rgba(0, 0, 0, 0.514) 3px 3px 11px;
 }
 
 .nav {
@@ -45,4 +49,8 @@ nav {
     text-decoration: none;
     font-size: 20px;
     margin-left: 40px;
+}
+
+.lista_nav a:active {
+    color: rgb(0, 0, 0);
 }
