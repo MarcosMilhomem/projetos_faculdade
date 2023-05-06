@@ -8,11 +8,14 @@
 }
 
 body {
-    /* background-color: dimgrey; */
     font-family: 'Poppins', sans-serif;
 }
 
 /* HEADER */
+
+header {
+    background-color: #2828F4;
+}
 
 nav {
     display: block;
@@ -62,12 +65,29 @@ nav {
 
 .h1_main {
     margin-top: 50px;
+    margin-bottom: 30px;
     text-align: center;
     color: #000000d3;
 }
 
-.video_article {
-    margin-top: 60px;
+.video_article{
     text-align: center;
 }
 
+.lista_passos{
+    text-align: justify;
+    margin-top: 70px;
+    margin-left: 100px;    
+    margin-bottom: 40px;
+    list-style-type: none;
+    max-width: 900px;
+}
+
+.passos{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.strong {
+    font-size: 25px;
+}
