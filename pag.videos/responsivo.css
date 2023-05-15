@@ -23,6 +23,6 @@
 @media(max-width:380px) {
     iframe{
         height: 200px;
-        width: 300px;
+        width:280px;
     }
 }
