@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@media(max-width:890px) {
+    iframe{
+        height: 400px;
+        width: 600px;
+    }
+
+    .lista_passos{
+        margin-top: 60px;
+        margin-left: 30px;    
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:750px) {
+    iframe{
+        height: 300px;
+        width: 500px;
+    }
+}
+
+@media(max-width:380px) {
+    iframe{
+        height: 200px;
+        width: 300px;
+    }
+}
