@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+@media(max-width:1080px) {
+    iframe{
+        height: 500px;
+        width:700px;
+    }
+}
+
 @media(max-width:890px) {
     iframe{
         height: 400px;
@@ -16,9 +23,13 @@
         font-size: 20px;
     }
 
+    .desc_transf {
+        font-size: 20px;
+    }
+
     .strong {
-        font-size: 25px;
-    3
+        font-size: 23px;
+}
 }
 
 @media(max-width:750px) {
@@ -27,8 +38,29 @@
         width: 500px;
     }
 
+    .lista_passos{
+        margin-top: 60px;
+        margin-left: 20px;    
+        margin-bottom: 40px;
+    }
+
     .passos{
-        font-size: 17x;
+        font-size: 17px;
+    }
+
+    .desc_transf {
+        font-size: 17px;
+    }
+
+    .strong {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:580px) {
+    iframe{
+        height: 280px;
+        width:460px;
     }
 }
 
