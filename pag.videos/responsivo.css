@@ -11,12 +11,24 @@
         margin-left: 30px;    
         margin-bottom: 40px;
     }
+
+    .passos{
+        font-size: 20px;
+    }
+
+    .strong {
+        font-size: 25px;
+    3
 }
 
 @media(max-width:750px) {
     iframe{
         height: 300px;
         width: 500px;
+    }
+
+    .passos{
+        font-size: 17x;
     }
 }
 
