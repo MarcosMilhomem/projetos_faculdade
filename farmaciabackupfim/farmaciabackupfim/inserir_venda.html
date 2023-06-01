@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Inserção de venda</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+        body {
+            display: flex;
+            font-family: 'Montserrat', sans-serif;    
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #00000044;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .container h1 {
+            text-align: center;
+            color: rgb(201, 238, 253);
+            margin-bottom: 20px;
+        }
+
+        .container form {
+            text-align: center;
+        }
+
+        .container form label {
+            display: block;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            text-align: left;
+            font-size: 1.1em;
+            color: rgb(232, 233, 255);
+        }
+
+        .container form input[type="text"],
+        .container form input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 10px;
+            box-sizing: border-box;
+            background-color: rgba(255, 255, 255, 0.774);
+        }
+
+        .container form input[type="submit"] {
+            background-color: #007bffa8;
+            color: #ffffff;
+            font-size: 1.1em;
+            font-weight: 500;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.15s ease;
+        }
+
+        .container form input[type="submit"]:hover {
+            background-color: #0056b3;
+            transition: 0.15s;
+        }
+
+        .container form input[type="submit"]:active {
+            background-color: #4da0ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Inserir Venda</h1>
+        <form action="inserir_venda.php" method="POST">
+            <label for="cliente_id">ID Cliente:</label>
+            <input type="text" id="cliente_id" name="cliente_id" required><br>
+            
+            <label for="data_venda">Data Venda:</label>
+            <input type="date" id="data_venda" name="data_venda" required><br>
+            
+            <label for="produto_id">ID Produto:</label>
+            <input type="text" id="produto_id" name="produto_id" required><br>
+            
+            <label for="quantidade">Quantidade:</label>
+            <input type="text" id="quantidade" name="quantidade" required><br>
+        
+            <input type="submit" value="Inserir">
+
+
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <title>Botão Voltar</title>
+                <style>
+                    body {
+                        font-family: 'Montserrat', sans-serif;
+                        text-align: center;
+                    }
+                    
+                    .btn {
+                        display: inline-block;
+                        font-size: 1.1em;
+                        font-weight: 500;
+                        padding: 10px 15px;
+                        background-color: #007bffa8;
+                        color: #fff;
+                        border: none;
+                        border-radius: 10px;
+                        text-decoration: none;
+                        cursor: pointer;
+                    }
+                    
+                    .btn:hover {
+                        background-color: #0069d9;
+                        transition: 0.15s;
+                    }
+
+                    .btn:active {
+                     background-color: #4da0ff;
+                    }
+                </style>
+            </head>
+            <body>
+                <a class="btn" href="index.html">Voltar para a página inicial</a>
+            </body>
+            </html>
+            <!DOCTYPE html>
+<html>
+<head>
+    <title>Ir para Vendas Diárias</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+        }
+        
+        .container {
+            background-color: #0056b3;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        
+        .btn {
+            display: inline-block;
+            font-size: 1.1em;
+            font-weight: 500;
+            padding: 10px 20px;
+            background-color: #007bffa8;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background-color: #0069d9;
+            transition: 0.15s;
+        }
+
+        .btn:active {
+            background-color: #4da0ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a class="btn" href="vendas_diarias.php">Ir para Vendas Diárias</a>
+    </div>
+</body>
+</html>
+
+    </div>
+</body>
+</html>
