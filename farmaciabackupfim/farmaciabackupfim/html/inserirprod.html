@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Inserção de Produtos</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link rel="stylesheet" href="style.css">
-<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Inserção de Produtos</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+        @media only screen and (max-width: 480px) {
+            .container {
+                max-width: 300px;
+            }
+        }
 
         body {
             font-family: 'Montserrat', sans-serif;
@@ -54,12 +61,12 @@
 
         .container input[type="submit"] {
             padding: 10px;
-            background-color: #4caf4fc2; 
+            background-color: #4caf4fc2;
             font-size: 1.1em;
             color: #fff;
             border: none;
             border-radius: 10px;
-            cursor: pointer;            
+            cursor: pointer;
         }
 
         .container input[type="submit"]:hover {
@@ -70,65 +77,60 @@
         .container input[type="submit"]:active {
             background-color: #59f85f;
         }
-
-        @media only screen and (max-width: 480px) {
-            .container {
-                max-width: 300px;
-            }
-        }
     </style>
 </head>
+
 <body>
     <div class="container">
         <h1>Inserir Produto</h1>
         <form action="produtos.php" method="POST">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required>
-            
+
             <label for="preco">Preço:</label>
             <input type="text" id="preco" name="preco" required>
-            
+
             <label for="estoque">Estoque:</label>
             <input type="text" id="estoque" name="estoque" required>
-            
+
             <input type="submit" value="Inserir">
 
-            <!DOCTYPE html>
-<html>
-<head>
-    <title>Botão Voltar</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-        
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            margin-top: 10px;            
-            margin-bottom: 30px;
-            background-color: #007bffa8;
-            color: #fff;
-            border: none;
-            border-radius: 10px;
-            text-decoration: none;
-            cursor: pointer;
-        }
-        
-        .btn:hover {
-            background-color: #0c7af0;
-            transition: 0.2s;
-        }
+        <!DOCTYPE html>
+        <html>
+            <head>
+            <title>Botão Voltar</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    text-align: center;
+                }
 
-        .btn:active {
-            background-color: #4da0ff;
-        }
-    </style>
-</head>
-<body>
-    <a class="btn" href="index.html">Voltar para a página inicial</a>
-</body>
-</html>
+                .btn {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    margin-top: 10px;
+                    margin-bottom: 30px;
+                    background-color: #007bffa8;
+                    color: #fff;
+                    border: none;
+                    border-radius: 10px;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+
+                .btn:hover {
+                    background-color: #0c7af0;
+                    transition: 0.2s;
+                }
+
+                .btn:active {
+                    background-color: #4da0ff;
+                }
+            </style>
+            </head>
+            <body>
+                <a class="btn" href="index.html">Voltar para a página inicial</a>
+            </body>
+        </html>
 </body>
 </html>
